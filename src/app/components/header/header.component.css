@@ -1,0 +1,14 @@
+mat-toolbar {
+    background-color: #f2f2f2;
+    height: 15vh;
+}
+
+img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+h2{
+    color: #4F6466!important;
+    margin-right: 50px;
+}

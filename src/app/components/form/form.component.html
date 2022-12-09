@@ -1,0 +1,41 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="center center">
+    <div class="form-seccion" fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+        <mat-form-field appearance="outline">
+            <mat-label>
+                Médico
+            </mat-label>
+            <input matInput type="text" placeholder="Ingrese el Médico" class="form-control" formControlName="medico">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>
+                Paciente
+            </mat-label>
+            <input matInput type="text" placeholder="Ingrese el Paciente" class="form-control"
+                formControlName="paciente">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>
+                Area
+            </mat-label>
+            <input matInput type="text" placeholder="Ingrese el Área" class="form-control"
+                formControlName="area">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>
+                Tipo
+            </mat-label>
+            <input matInput type="text" placeholder="Ingrese el Tipo" class="form-control"
+                formControlName="tipo">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>
+                Fecha
+            </mat-label>
+            <input matInput type="date" placeholder="Ingrese el Usuario" class="form-control"
+                formControlName="fecha">
+        </mat-form-field>
+    </div>
+    <button class="button-add" type="submit" value="Enviar" mat-raised-button color="primary">
+        Agregar
+    </button>
+</form>
